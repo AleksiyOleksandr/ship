@@ -1,0 +1,59 @@
+body {
+    background-color: #C1EDF2;
+}
+
+header {
+    background-color: #005B71;
+    padding: 50px;
+    text-align: center;
+    color: #111111;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    color: #111111;
+}
+
+.catalog {
+    text-align: center;
+    color: #111111;
+}
+
+.catalog div {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 32px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+}
+
+main h1, main h2 {
+    text-align: center; 
+    color:#111111;
+}
+
+main p {
+    text-align: center;
+    font-size: 20px;
+    color: #111111;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: #005B71;
+    color: #111111;
+    padding: 10px;
+}
+
+footer article {
+    display: flex;
+    align-items: center;
+}
